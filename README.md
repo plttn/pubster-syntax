@@ -7,4 +7,4 @@ Markdown support added, and if something doesn't look nice, drop a pull request.
 
 
 
-![Tubster](preview.png)
+![Tubster](http://i.imgur.com/xq4qfI6.png)
