@@ -16,8 +16,6 @@ Supports Markdown, and if something doesn't look nice, drop a pull request.
 3. hello
 
 
-
-
 ```
 
 fenced blocks
