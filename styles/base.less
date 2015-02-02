@@ -139,7 +139,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .markup {
   &.bold {
-    color: desaturate(@tubster-color-other-constant, 50%);
+    color: desaturate(@tubster-color-other-constant, 10%);
     font-weight: bold;
   }
 
@@ -196,6 +196,18 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
     &.link {
       color: @tubster-color-variable;
     }
+  }
+
+  .raw.gfm {
+    .support.gfm{
+      color: @tubster-color-header;
+      font-style: italic;
+    }
+    color: @tubster-color-constant;
+  }
+
+  .raw.gfm.support.gfm {
+    color: @tubster-color-function;
   }
 
   .link .entity {
