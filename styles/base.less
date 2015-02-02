@@ -53,7 +53,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .source {
-  background-color: #232323;
+  //background-color: #232323;
 }
 
 .comment {
@@ -78,7 +78,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .variable.language, .variable.other {
-  color: #3399CC;
+  color: @tubster-color-variable;
 }
 
 .constant {
@@ -86,15 +86,15 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .variable.other.constant {
-  color: @syntax-color-constant;
+  color: @tubster-color-constant;
 }
 
 .constant.language {
-  color: #3399CC;
+  color: @tubster-color-variable;
 }
 
 .string {
-  color: #99CC33;
+  color: @tubster-color-string;
 }
 
 .support.function {
@@ -106,7 +106,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .support.constant {
-  color: #99CC33;
+  color: @tubster-color-string;
 }
 
 .meta.tag, .declaration.tag, .entity.name.tag, .entity.other.attribute-name {
