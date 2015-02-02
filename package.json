@@ -2,8 +2,8 @@
   "name": "tubster-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
-  "repository": "https://github.com/atom/tubster-theme",
+  "description": "Tubster theme ported from TM to Atom",
+  "repository": "https://github.com/plttn/tubster-theme",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
