@@ -52,17 +52,18 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   background-color: #333435;
 }
 
+//specific styling
 .source {
   //background-color: #232323;
 }
 
 .comment {
   font-style: italic;
-  color: #666666;
+  color: @tubster-color-comment;
 }
 
 .keyword, .storage {
-  color: #CC6633;
+  color: @tubster-color-keyword;
 }
 
 .entity.name.function, .keyword.other.name-of-parameter.objc {
@@ -135,3 +136,51 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 .meta.diff.header, .meta.separator.diff, .meta.diff.index, .meta.diff.range {
   background-color: #3366FF;
 }
+/*
+.markup {
+  &.bold {
+    color: @orange;
+    font-weight: bold;
+  }
+
+  &.changed {
+    color: @purple;
+  }
+
+  &.deleted {
+    color: @red;
+  }
+
+  &.italic {
+    color: @purple;
+    font-style: italic;
+  }
+
+  &.heading .punctuation.definition.heading {
+    color: @blue;
+  }
+
+  &.inserted {
+    color: @green;
+  }
+
+  &.list {
+    color: @red;
+  }
+
+  &.quote {
+    color: @orange;
+  }
+
+  &.raw.inline {
+    color: @green;
+  }
+
+  &.raw.gfm.support.gfm {
+    color: @passive;
+  }
+
+  &.strike.gfm {
+    color: @princess;
+  }
+}*/
