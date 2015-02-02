@@ -54,7 +54,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 //specific styling
 .source {
-
+  //font-style: bold;
 }
 
 .comment {
@@ -217,4 +217,25 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .list.gfm {
   color: @tubster-color-constant;
+}
+
+//html fixes
+
+.attribute-name.id.html, .separator.key-value.html {
+  color: @tubster-color-support-function;
+  font-style: italic;
+}
+
+.meta.tag.block.any.html{
+  color: @tubster-color-support-function;
+  .punctuation.definition.tag.begin.html{
+    color: @tubster-color-function;
+  }
+  .punctuation.definition.tag.end.html{
+    color: @tubster-color-function;
+  }
+  .entity.other.attribute-name.html{
+    color: @tubster-color-support-function;
+    font-style: italic;
+  }
 }
