@@ -199,6 +199,15 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
     }
   }
 
+  .comment.quote.gfm {
+    .support.quote.gfm{
+      font-style: normal;
+      color: @syntax-color-renamed;
+    }
+    font-style: italic;
+    color: @syntax-text-color;
+  }
+
   .raw.gfm {
     .support.gfm{
       color: @tubster-color-header;
