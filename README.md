@@ -1,4 +1,4 @@
-# tubster-theme
+# Tubster for Atom
 
 Ported from Textmate.
 
