@@ -233,6 +233,8 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
   color: @tubster-color-constant;
 }
 
+
+
 //html fixes
 
 .meta.tag.block.any.html{
@@ -256,3 +258,21 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
     color: @tubster-color-string;
   }
 }
+
+//JSON fixes
+.source.json {
+    .string.quoted.double.json {
+      color: @tubster-color-constant;
+      .punctuation.definition.string {
+        color: @tubster-color-constant;
+      }
+    }
+    .meta.structure.dictionary.value.json {
+      .string.quoted.double.json {
+        .punctuation.definition.string {
+          color: @tubster-color-string;
+        }
+        color: @tubster-color-string;
+      }
+    }
+  }
