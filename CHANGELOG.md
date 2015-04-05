@@ -1,4 +1,4 @@
-# 0.4.3 - JSON Polish
+# 0.5.0 - JSON Polish
 - Polished the look of JSON
 - Actually using my changelog now
 
