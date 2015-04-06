@@ -1,3 +1,6 @@
+# 0.5.1 - YAML Front Matter Polish
+- Now underlines front matter :thumbsup:
+
 # 0.5.0 - JSON Polish
 - Polished the look of JSON
 - Actually using my changelog now
