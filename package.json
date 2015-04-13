@@ -1,7 +1,7 @@
 {
   "name": "tubster-syntax",
   "theme": "syntax",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "Tubster theme ported from TM to Atom",
   "repository": "https://github.com/plttn/tubster-syntax",
   "license": "MIT",
