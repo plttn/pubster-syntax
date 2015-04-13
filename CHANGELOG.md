@@ -1,4 +1,4 @@
-# 0.5.2 -- More YAML Polish
+# 0.6.0 -- More YAML Polish
 - Now it's italicized
 
 # 0.5.1 - YAML Front Matter Polish
