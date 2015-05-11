@@ -57,7 +57,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
   //font-style: bold;
 }
 
-.comment {
+.comment:not(.gfm) {
   font-style: italic;
   color: @tubster-color-comment;
 }
@@ -227,6 +227,29 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
   .link .entity {
     color: @tubster-color-header;
   }
+  .critic.gfm {
+    .addition {
+      color: @tubster-color-string;
+    }
+    .deletion {
+      color: @tubster-color-other-constant;
+    }
+    .substitution {
+      color: @tubster-color-function;
+    }
+    .comment {
+      font-style: normal;
+      color: @tubster-color-constant;
+    }
+    .highlight {
+      color: @tubster-color-keyword
+    }
+  }
+}
+
+.source.gfm.critic.gfm.comment {
+  font-style: normal;
+  color: @tubster-color-constant;
 }
 
 .list.gfm {
@@ -286,5 +309,13 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
   }
   .string {
     font-style: italic;
+  }
+}
+
+.source.yaml {
+  .string.unquoted.yaml {
+    .entity.name.tag.yaml {
+      font-style: bold;
+    }
   }
 }

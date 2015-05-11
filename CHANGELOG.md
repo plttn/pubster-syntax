@@ -1,3 +1,6 @@
+# 0.7.0 -- CriticMarkup
+-	CriticMarkup support added
+
 # 0.6.0 -- More YAML Polish
 - Now it's italicized
 
