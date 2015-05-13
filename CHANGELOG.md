@@ -1,3 +1,6 @@
+# 0.7.1 -- Wrap Guide
+- A fancy new dotted wrap guide
+
 # 0.7.0 -- CriticMarkup
 -	CriticMarkup support added
 
