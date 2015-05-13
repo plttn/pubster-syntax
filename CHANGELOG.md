@@ -1,8 +1,11 @@
+# 0.8.0 -- CriticMarkup Polish
+- Fixed GFM comments after modifying comments to allow CriticMarkup support
+
 # 0.7.1 -- Wrap Guide
 - A fancy new dotted wrap guide
 
 # 0.7.0 -- CriticMarkup
--	CriticMarkup support added
+- CriticMarkup support added
 
 # 0.6.0 -- More YAML Polish
 - Now it's italicized
