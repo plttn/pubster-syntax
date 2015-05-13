@@ -1,3 +1,6 @@
+# 0.9.1 -- More CriticMarkup Polish
+- Fixed text being white in CriticMarkup
+
 # 0.9.0 -- CriticMarkup Polish (or the one that ate eight)
 - Fixed GFM comments after modifying comments to allow CriticMarkup support
 
