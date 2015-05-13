@@ -1,4 +1,4 @@
-# 0.8.0 -- CriticMarkup Polish
+# 0.9.0 -- CriticMarkup Polish (or the one that ate eight)
 - Fixed GFM comments after modifying comments to allow CriticMarkup support
 
 # 0.7.1 -- Wrap Guide
