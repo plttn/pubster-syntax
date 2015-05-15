@@ -1,3 +1,6 @@
+# 0.10.2 -- PHP Pretty
+- PHP functions are now highlighted, which seems like a good thing to have
+
 # 0.10.1 -- The "oops i broke things" Version
 - So apparently my fancy new dotted wrap guide is no more
 - did some general code cleanup (why have things in comments if you're not using them)
