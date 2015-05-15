@@ -21,6 +21,7 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .l
 
 atom-text-editor .wrap-guide, :host .wrap-guide {
   color: @syntax-wrap-guide-color;
+  opacity: .75;
 }
 
 atom-text-editor .indent-guide, :host .indent-guide {
@@ -52,18 +53,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
   background-color: #333435;
 }*/
 
-atom-text-editor {
-  .wrap-guide {
-    background-color: transparent;
-    border-left: dotted 1px;
-    opacity: 0.75;
-  }
-}
-
 //specific styling
-.source {
-  //font-style: bold;
-}
 
 .comment:not(.gfm) {
   font-style: italic;

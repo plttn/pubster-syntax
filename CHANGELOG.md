@@ -1,3 +1,7 @@
+# 0.10.1 -- The "oops i broke things" Version
+- So apparently my fancy new dotted wrap guide is no more
+- did some general code cleanup (why have things in comments if you're not using them)
+
 # 0.10.0 -- Hue Rotation
 - Inline CSS/CoffeeScript/JS now hue rotates out of the regular palette for ease of identification
 
