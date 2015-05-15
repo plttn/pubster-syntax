@@ -1,3 +1,6 @@
+# 0.10.0 -- Hue Rotation
+- Inline CSS/CoffeeScript/JS now hue rotates out of the regular palette for ease of identification
+
 # 0.9.1 -- More CriticMarkup Polish
 - Fixed text being white in CriticMarkup
 
