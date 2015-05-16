@@ -1,4 +1,8 @@
-# 0.11.3/4 -- Maintance updates, nothing to see here
+# 0.12.0 -- PHP/HTML Tweaks
+- Fancy new slightly transparent brackets </>
+- Better looks in PHP
+
+# 0.11.3/4 -- Maintenance updates, nothing to see here
 # 0.11.2 -- Still Tweaking Ruby
 - Tried yet another tweak to how classes are displayed. Ruby isn't a language I spend a lot of time in, so let me know what you think
 
