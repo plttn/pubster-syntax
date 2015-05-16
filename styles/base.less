@@ -278,7 +278,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 
 
 //html fixes
-
+/*
 .meta.tag.block.any.html{
   color: @tubster-color-support-function;
   .punctuation.definition.tag.begin.html{
@@ -291,6 +291,18 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
     color: @tubster-color-support-function;
     font-style: italic;
   }
+}*/
+
+.punctuation.definition.tag {
+  color: @syntax-text-color;
+  opacity: .75;
+}
+
+.entity.other.attribute-name.html {
+  color: desaturate(@tubster-color-support-function, 10%);
+}
+.doctype.html {
+  color: @syntax-text-color;
 }
 
 //LESS fixes
@@ -350,6 +362,9 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 
 .meta.function-call.php {
   color: @tubster-color-function;
+}
+.support.class.php {
+  color: @tubster-color-support-type;
 }
 
 //Ruby Polish
