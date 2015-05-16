@@ -1,3 +1,6 @@
+# 0.11.1 -- Ruby Rodeo: Gig Em Edition
+- Fixed a certain theming weirdness
+
 # 0.11.0 -- Ruby Rodeo
 - Makes Ruby look nice and pretty
 
