@@ -359,6 +359,8 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
   }
   .class {
     color: @tubster-color-function;
+    font-style: italic;
+    font-weight: bold;
   }
   .constant {
     color: @tubster-color-numeric;
@@ -367,6 +369,9 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
     color: @tubster-color-variable;
   }
   .punctuation.definition.constant {
-    color: @tubster-color-variable;
+    color: @tubster-color-support-type;
+  }
+  .constant.other.symbol {
+    color: @tubster-color-support-type;
   }
 }

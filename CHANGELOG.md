@@ -1,3 +1,6 @@
+# 0.11.2 -- Still Tweaking Ruby
+- Tried yet another tweak to how classes are displayed. Ruby isn't a language I spend a lot of time in, so let me know what you think
+
 # 0.11.1 -- Ruby Rodeo: Gig Em Edition
 - Fixed a certain theming weirdness
 
