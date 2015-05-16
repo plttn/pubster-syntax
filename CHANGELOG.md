@@ -1,3 +1,6 @@
+# 0.11.0 -- Ruby Rodeo
+- Makes Ruby look nice and pretty
+
 # 0.10.2 -- PHP Pretty
 - PHP functions are now highlighted, which seems like a good thing to have
 
