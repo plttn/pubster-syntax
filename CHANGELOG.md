@@ -1,4 +1,4 @@
-# 0.13.1 -- Ruby Tweaks (yet again)
+# 0.13.3 -- Ruby Tweaks (yet again)
 - Modified Ruby slightly to match how tubster on other platforms treats Ruby classes
 
 # 0.13.0 -- New Line Number/Gutter
