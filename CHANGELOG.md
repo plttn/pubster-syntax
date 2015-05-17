@@ -1,3 +1,8 @@
+# 0.13.0 -- New Line Number/Gutter
+- Tweaks comment color slightly
+- Better grokking of gutter line number
+- Cursor-line now has a different color
+
 # 0.12.0 -- PHP/HTML Tweaks
 - Fancy new slightly transparent brackets </>
 - Better looks in PHP
