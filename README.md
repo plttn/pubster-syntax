@@ -8,4 +8,4 @@ Credit to whoever made Tubster in the first place.
 - Hue rotation for embedded JS/CoffeeScript/CSS
 - Text Decoration for markdown: **bold**, _italics_, ~~strikethrough~~
 
-![Tubster](http://i.imgur.com/GvWchzM.png)
+![Tubster](https://github.com/plttn/tubster-syntax/raw/master/preview.png)
