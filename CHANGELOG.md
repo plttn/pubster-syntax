@@ -1,3 +1,7 @@
+# 0.14.0 -- Refactoring, and a fancy new screenshot
+- Refactored codebase to match the template syntax more
+- Added a new screenshot that better shows the theme
+
 # 0.13.4 -- Ruby Tweaks (yet again)
 - Modified Ruby slightly to match how tubster on other platforms treats Ruby classes
 
