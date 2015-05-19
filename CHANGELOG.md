@@ -1,3 +1,6 @@
+# 0.14.1 -- Fix Blockquotes
+- Due to some comment tweaks I made, blockquotes got more and more transparent as they continued
+
 # 0.14.0 -- Refactoring, and a fancy new screenshot
 - Refactored codebase to match the template syntax more
 - Added a new screenshot that better shows the theme
