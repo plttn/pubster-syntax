@@ -8,4 +8,9 @@ Credit to whoever made Tubster in the first place.
 - Hue rotation for embedded JS/CoffeeScript/CSS
 - Text Decoration for markdown: **bold**, _italics_, ~~strikethrough~~
 
+
 ![Tubster](https://github.com/plttn/tubster-syntax/raw/master/preview.png)
+
+Font: [Input Mono](http://input.fontbureau.com/)
+
+Theme: [Isotope UI](https://atom.io/themes/isotope-ui)
