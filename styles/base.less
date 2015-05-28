@@ -60,7 +60,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 
 //specific styling
 
-.comment:not(.gfm) {
+.comment:not(.gfm) { //Keeps CriticMarkup from being italics
   font-style: italic;
   color: @tubster-color-comment;
 }
@@ -139,53 +139,8 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 .meta.diff.header, .meta.separator.diff, .meta.diff.index, .meta.diff.range {
   background-color: @tubster-color-header;
 }
-/*
-.markup {
-  &.bold {
-    color: desaturate(@tubster-color-other-constant, 10%);
-    font-weight: bold;
-  }
 
-  &.changed {
-    color: @tubster-color-header;
-  }
-
-  &.deleted {
-    color: @tubster-color-support-function;
-  }
-
-  &.italic {
-    color: @tubster-color-variable;
-    font-style: italic;
-  }
-
-  &.inserted {
-    color: @tubster-color-string;
-  }
-
-  &.list {
-    color: @tubster-color-constant;
-  }
-
-  &.quote {
-    color: @tubster-color-function;
-  }
-
-  &.raw.inline {
-    color: @tubster-color-numeric;
-  }
-
-  &.raw.gfm.support.gfm {
-    color: @tubster-color-header;
-  }
-
-  &.strike.gfm {
-    color: @tubster-color-keyword;
-    text-decoration: line-through;
-  }
-} */
-
-
+//GFM
 .source.gfm {
   .markup {
     -webkit-font-smoothing: auto;
