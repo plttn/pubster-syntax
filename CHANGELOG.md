@@ -1,3 +1,7 @@
+# 0.15.0 -- Refactoring, Modified GFM Headers
+- Made GFM source code a bit prettier and a bit less repetitive
+- Markdown headers now get less bold as their importance lessens
+
 # 0.14.1 -- Fix Blockquotes
 - Due to some comment tweaks I made, blockquotes got more and more transparent as they continued
 
