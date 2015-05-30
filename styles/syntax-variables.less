@@ -1,4 +1,3 @@
-@import "colors";
 // This defines all syntax variables that syntax themes must implement when they
 // include a syntax-variables.less file.
 
@@ -21,7 +20,7 @@
 // Gutter colors
 @syntax-gutter-text-color                : #E6E1DC;
 @syntax-gutter-text-color-selected       : #E6E1DC;
-@syntax-gutter-background-color          : #232323;
+@syntax-gutter-background-color          : @syntax-background-color;
 @syntax-gutter-background-color-selected : #DA4939;
 
 // For git diff info. i.e. in the gutter
