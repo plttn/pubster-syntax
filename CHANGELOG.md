@@ -1,3 +1,8 @@
+# 0.16.0 -- Visual tweaks and some more refactoring
+- Tweaked find marker colors
+- added underlined html links
+- refactored styling into separate files
+
 # 0.15.1 -- Actually remove the stuff I refactored
 
 # 0.15.0 -- Refactoring, Modified GFM Headers
