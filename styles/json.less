@@ -1,0 +1,18 @@
+@import "colors";
+
+.source.json {
+  .string.quoted.double.json {
+    color: @tubster-color-constant;
+    .punctuation.definition.string {
+      color: @tubster-color-constant;
+    }
+  }
+  .meta.structure.dictionary.value.json {
+    .string.quoted.double.json {
+      .punctuation.definition.string {
+        color: @tubster-color-string;
+      }
+      color: @tubster-color-string;
+    }
+  }
+}
