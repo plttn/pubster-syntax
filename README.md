@@ -1,4 +1,6 @@
 # Tubster for Atom
+[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
+
 Ported from Textmate.
 
 Markdown support added, and if something doesn't look nice, drop a pull request.
