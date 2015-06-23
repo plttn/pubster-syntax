@@ -1,3 +1,5 @@
+# 0.16.1 -- Tweak HTML underlines
+
 # 0.16.0 -- Visual tweaks and some more refactoring
 - Tweaked find marker colors
 - added underlined html links
