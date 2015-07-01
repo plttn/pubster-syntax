@@ -1,4 +1,4 @@
-# Tubster for Atom
+# Tubster for Atom [![apm install {package}](http://tcyrus.me/apm/tubster-syntax.svg)](https://atom.io/packages/tubster-syntax)
 [![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
 
 Ported from Textmate.
