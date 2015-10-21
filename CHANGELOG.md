@@ -1,3 +1,6 @@
+# 0.16.2 -- Resolve bracket matching
+- Along with some other fixes
+
 # 0.16.1 -- Tweak HTML underlines
 
 # 0.16.0 -- Visual tweaks and some more refactoring
