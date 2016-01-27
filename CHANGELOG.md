@@ -1,3 +1,7 @@
+# 0.16.3 -- Return of the line highlight
+-	Readded line highlight
+- possibly other ghost fixes 
+
 # 0.16.2 -- Resolve bracket matching
 - Along with some other fixes
 
