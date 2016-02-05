@@ -15,9 +15,12 @@ atom-text-editor, :host {
     background-color: @syntax-background-cursor-color;
     z-index: -100;
   }
-  .wrap-guide {
-    color: @syntax-wrap-guide-color;
-    opacity: .75;
+
+  &::shadow{
+    .wrap-guide {
+      background-color: @syntax-wrap-guide-color;
+      //opacity: .75;
+    }
   }
   .indent-guide {
     color: @syntax-indent-guide-color;
