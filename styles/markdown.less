@@ -186,7 +186,9 @@
     }
 
     &.code {
-      &:not(.fenced) {}
+      &:not(.fenced) {
+        background: fade(@_neutral, 10%)
+      }
 
       &.fenced {
         .punctuation.md {
