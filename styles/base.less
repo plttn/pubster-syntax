@@ -1,66 +1,49 @@
 @import "colors";
-@import "gfm";
-@import "html";
-@import "less";
-@import "yaml";
-@import "php";
-@import "ruby";
-@import "json";
-@import "git";
-@import "markdown";
 
 atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
-}
-
-atom-text-editor .gutter, :host .gutter {
-  background-color: @syntax-gutter-background-color;
-  color: @syntax-gutter-text-color;
-}
-
-atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
-  background-color: @syntax-gutter-background-color-selected;
-  color: @syntax-gutter-text-color-selected;
-}
-
-atom-text-editor .cursor-line, :host .cursor-line {
-  background-color: @syntax-background-cursor-color;
-  z-index: -100;
-}
-
-atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
-  color: @syntax-gutter-text-color-selected;
-}
-
-atom-text-editor .wrap-guide, :host .wrap-guide {
-  color: @syntax-wrap-guide-color;
-  opacity: .75;
-}
-
-atom-text-editor .indent-guide, :host .indent-guide {
-  color: @syntax-indent-guide-color;
-}
-
-atom-text-editor .invisible-character, :host .invisible-character {
-  color: @syntax-invisible-character-color;
-}
-
-atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
-  background-color: transparent;
-  border: @syntax-result-marker-color;
-}
-
-atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
-  border: @syntax-result-marker-color-selected;
-}
-
-atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
-  border-color: @syntax-cursor-color;
-}
-
-atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
-  background-color: @syntax-selection-color;
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
+    .line-number.cursor-line {
+      background-color: @syntax-gutter-background-color-selected;
+      color: @syntax-gutter-text-color-selected;
+    }
+  }
+  .cursor-line {
+    background-color: @syntax-background-cursor-color;
+    z-index: -100;
+  }
+  .wrap-guide {
+    color: @syntax-wrap-guide-color;
+    opacity: .75;
+  }
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+  .search-results {
+    .marker{
+      background-color: transparent;
+      border: @syntax-result-marker-color;
+      &.current-result {
+        border: @syntax-result-marker-color-selected;
+      }
+    }
+  }
+  .is-focused {
+    .cursor {
+      border-color: @syntax-cursor-color;
+    }
+    .selection {
+      .region {
+        background-color: @syntax-selection-color;
+      }
+    }
+  }
 }
 
 //specific styling
@@ -144,3 +127,13 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
     &.js { -webkit-filter: hue-rotate(180deg); }
     &.css { -webkit-filter: hue-rotate(270deg); }
 }
+
+@import "gfm";
+@import "html";
+@import "less";
+@import "yaml";
+@import "php";
+@import "ruby";
+@import "json";
+@import "git";
+@import "markdown";
