@@ -1,14 +1,6 @@
 @import "colors";
 
-@_syntax:         #0000ff;
-@_syntax_alt:     darken(@_syntax, 15%);
-@_content:        #009900;
-@_variable:       #0099cc;
-@_constant:       #ee1100;
-@_highlight:      #ffdd00;
-@_comment:        #ff8000;
-@_neutral:        mix(@syntax-text-color, @syntax-background-color);
-
+@_neutral: mix(@syntax-text-color, @syntax-background-color);
 
 .markup {
 
@@ -63,7 +55,7 @@
 
   &.inserted,
   &.addition {
-    color: @_content;
+    color: @tubster-color-string;
   }
 
   &.quote {
@@ -75,9 +67,8 @@
 }
 
 
-  &.deletion,
-  &.hr {
-    color: @_constant;
+  &.deletion {
+    color: @tubster-color-other-constant;
   }
 
   &.link {
@@ -231,7 +222,9 @@
     &.strike {}
 
     &.critic {
-      &.addition {}
+      &.addition {
+
+    }
       &.deletion {}
       &.comment {}
       &.highlight {}
