@@ -1,17 +1,20 @@
-# Tubster for Atom 
+# Pubster for Atom
 [![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
 
-Ported from Textmate.
+A classy dark syntax theme inspired by Tubster and all its variants.
 
-Markdown support added, and if something doesn't look nice, drop a pull request.
+Both `language-gfm` and `language-markdown` have been tuned for the best possible
+appearance, however they will not look exactly the same.
 
 Credit to whoever made Tubster in the first place.
+
 - Supports CriticMarkup
 - Hue rotation for embedded JS/CoffeeScript/CSS
 - Text Decoration for markdown: **bold**, _italics_, ~~strikethrough~~
 
 
-![Tubster](https://github.com/plttn/tubster-syntax/raw/master/preview.png)
+
+![pubster](https://github.com/plttn/pubster-syntax/raw/master/preview.png)
 
 Font: [Input Mono](http://input.fontbureau.com/)
 
