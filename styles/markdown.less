@@ -29,19 +29,51 @@
 
   &.strike {
     text-decoration: line-through;
+    color: @tubster-color-keyword;
+    //-webkit-text-decoration-style: dashed; IMPLEMENTED SOON, KEEPING IN TO REMIND ME
   }
 
-  &.heading,
   &.substitution,
   &.changed {
-    color: @_syntax;
+    color: @tubster-color-keyword;
   }
 
+  &.heading {
+    .heading-1{
+      color: mix(@tubster-color-other-constant, @syntax-text-color, 100);
+    }
+    .heading-2{
+      color: mix(@tubster-color-other-constant, @syntax-text-color, 90);
+    }
+    .heading-3{
+      color: mix(@tubster-color-other-constant, @syntax-text-color, 80);
+    }
+    .heading-4{
+      color: mix(@tubster-color-other-constant, @syntax-text-color, 60);
+    }
+    .heading-5{
+      color: mix(@tubster-color-other-constant, @syntax-text-color, 40);
+    }
+    .heading-6{
+      color: mix(@tubster-color-other-constant, @syntax-text-color, 20);
+    }
+  }
+
+
+
   &.inserted,
-  &.addition,
-  &.quote {
+  &.addition {
     color: @_content;
   }
+
+  &.quote {
+  color: @syntax-text-color;
+  font-style: italic;
+  .punctuation {
+    color: @syntax-color-renamed;
+  }
+}
+
 
   &.deletion,
   &.hr {
@@ -49,12 +81,16 @@
   }
 
   &.link {
-    color: @_variable;
+    color: @tubster-color-variable;
+
+    .string {
+      color: @tubster-color-header;
+    }
   }
 
   &.list {
     & > .punctuation {
-      color: @_syntax_alt;
+      color: @tubster-color-constant;
     }
   }
 
@@ -86,7 +122,9 @@
       }
     }
 
-    &.hr {}
+    &.hr {
+      color: @tubster-color-string;
+    }
     &.quote {}
 
     &.link {
@@ -157,6 +195,10 @@
       &:not(.fenced) {}
 
       &.fenced {
+        .punctuation.md {
+          color: @tubster-color-header;
+          font-style: italic;
+        }
         &.info {}
       }
 
@@ -164,7 +206,10 @@
     }
 
     &.constant {
-      &.language {}
+      &.language {
+        color: @tubster-color-header;
+        font-style: italic;
+      }
     }
 
     &.emphasis {
