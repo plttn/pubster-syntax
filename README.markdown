@@ -11,6 +11,7 @@ Credit to whoever made Tubster in the first place.
 - Supports CriticMarkup
 - Hue rotation for embedded JS/CoffeeScript/CSS
 - Text Decoration for markdown: **bold**, _italics_, ~~strikethrough~~
+- Tuned to be contrast safe to the WCAG AA standard. This means better readability!
 
 
 
