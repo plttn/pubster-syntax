@@ -1,5 +1,5 @@
-# Pubster for Atom
-[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
+# Pubster for Atom [![apm](https://img.shields.io/apm/v/pubster-syntax.svg?style=flat-square)](https://atom.io/packages/pubster-syntax)
+
 
 A classy dark syntax theme inspired by Tubster and all its variants.
 
