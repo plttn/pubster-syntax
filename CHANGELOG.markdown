@@ -11,8 +11,6 @@ This theme attempts to follow [Semantic Versioning](http://semver.org).
 ### Removed
 - Hue rotation for embedded scripts/CSS removed
 
-### Removed
-
 
 ## 0.16.3 -- Return of the line highlight
 -	Readded line highlight
