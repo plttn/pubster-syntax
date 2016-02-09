@@ -2,7 +2,7 @@
   "name": "pubster-syntax",
   "theme": "syntax",
   "version": "0.16.4",
-  "description": "Tubster theme ported from TM to Atom",
+  "description": "Inspired by Tubster",
   "repository": "https://github.com/plttn/tubster-syntax",
   "license": "MIT",
   "engines": {
