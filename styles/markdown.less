@@ -72,10 +72,10 @@
   }
 
   &.link {
-    color: @pubster-color-variable;
+    //color: @pubster-color-variable;
 
     .string {
-      color: @pubster-color-header;
+      //color: @pubster-color-header;
     }
   }
 
@@ -119,6 +119,10 @@
     &.quote {}
 
     &.link {
+      color: @pubster-color-variable;
+      .string {
+        color: @pubster-color-header;
+      }
       &.text {}
       &.destination {
         .uri {}
