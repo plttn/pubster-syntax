@@ -15,7 +15,7 @@ Credit to whoever made Tubster in the first place.
 
 
 
-![pubster](https://github.com/plttn/pubster-syntax/raw/master/preview.png)
+![pubster](https://github.com/plttn/pubster-syntax/raw/master/specimen.png)
 
 Font: [Hack](https://github.com/chrissimpkins/Hack)
 
