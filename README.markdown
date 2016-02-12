@@ -16,6 +16,6 @@ Credit to whoever made Tubster in the first place.
 
 ![pubster](https://github.com/plttn/pubster-syntax/raw/master/preview.png)
 
-Font: [Input Mono](http://input.fontbureau.com/)
+Font: [Hack](https://github.com/chrissimpkins/Hack)
 
 Theme: [Isotope UI](https://atom.io/themes/isotope-ui)
