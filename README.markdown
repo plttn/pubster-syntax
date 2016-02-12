@@ -13,10 +13,18 @@ Credit to whoever made Tubster in the first place.
 - Text Decoration for markdown: **bold**, _italics_, ~~strikethrough~~
 - Tuned to be contrast safe to the WCAG AA standard. This means better readability!
 
+## Specimens
 
+#### HTML
+![HTML](https://raw.githubusercontent.com/plttn/pubster-syntax/master/specimens/html.png)
 
-![pubster](https://github.com/plttn/pubster-syntax/raw/master/specimen.png)
+#### LESS
+![LESS](https://raw.githubusercontent.com/plttn/pubster-syntax/master/specimens/less.png)
+
+#### Markdown
+![Markdown](https://raw.githubusercontent.com/plttn/pubster-syntax/master/specimens/markdown.png)
+
+#### Ruby
+![Ruby](https://raw.githubusercontent.com/plttn/pubster-syntax/master/specimens/ruby.png)
 
 Font: [Hack](https://github.com/chrissimpkins/Hack)
-
-Theme: [Isotope UI](https://atom.io/themes/isotope-ui)
