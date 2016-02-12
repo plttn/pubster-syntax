@@ -2,8 +2,8 @@
   "name": "pubster-syntax",
   "theme": "syntax",
   "version": "0.16.4",
-  "description": "Inspired by Tubster",
-  "repository": "https://github.com/plttn/tubster-syntax",
+  "description": "A dark syntax theme inspired by Tubster",
+  "repository": "https://github.com/plttn/pubster-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

@@ -1,5 +1,5 @@
 # Pubster for Atom
-[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
+[![apm](https://img.shields.io/apm/v/pubster-syntax.svg?style=flat-square)](https://atom.io/packages/pubster-syntax)
 
 A classy dark syntax theme inspired by Tubster and all its variants.
 
@@ -9,7 +9,6 @@ appearance, however they will not look exactly the same.
 Credit to whoever made Tubster in the first place.
 
 - Supports CriticMarkup
-- Hue rotation for embedded JS/CoffeeScript/CSS
 - Text Decoration for markdown: **bold**, _italics_, ~~strikethrough~~
 
 
