@@ -10,6 +10,7 @@ Credit to whoever made Tubster in the first place.
 
 - Supports CriticMarkup
 - Text Decoration for markdown: **bold**, _italics_, ~~strikethrough~~
+- Tuned to be contrast safe to the WCAG AA standard. This means better readability!
 
 
 
