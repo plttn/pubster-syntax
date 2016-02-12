@@ -1,7 +1,7 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
-## 1.0.0 [UNRELEASED]
+## 1.0.0
 ### Added
 - `language-markdown` support
 
