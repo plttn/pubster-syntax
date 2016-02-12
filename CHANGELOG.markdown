@@ -1,6 +1,9 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
+## 1.0.2
+This version contains no changes, merely a version bump to update readme on atom.io
+
 ## 1.0.1
 This version contains no changes, merely a version bump to update readme on atom.io.
 
