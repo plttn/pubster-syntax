@@ -1,13 +1,20 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
-## 1.0.2
+## 1.1.0 - 2016-02-12
+### Added
+- Embedded PHP now has a background highlight
+
+### Changed
+- Refactored HTML/PHP to get rid of some redundant rules.
+
+## 1.0.2 - 2016-02-12
 This version contains no changes, merely a version bump to update readme on atom.io
 
-## 1.0.1
+## 1.0.1 - 2016-02-12
 This version contains no changes, merely a version bump to update readme on atom.io.
 
-## 1.0.0
+## 1.0.0 - 2016-02-12
 ### Added
 - `language-markdown` support
 
