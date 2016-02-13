@@ -1,24 +1,20 @@
 @import "colors";
 
-.meta.function-call.php {
-  color: @pubster-color-function;
-}
-.support.class.php {
-  color: @pubster-color-support-type;
-}
-.punctuation.definition.tag.html {
-  color: @syntax-text-color;
-  opacity: .75;
-}
+.text.html.php{
+  .meta.function-call.php {
+    color: @pubster-color-function;
+  }
+  .support.class.php {
+    color: @pubster-color-support-type;
+  }
 
-.entity.other.attribute-name.html {
-  color: desaturate(@pubster-color-support-function, 10%);
-}
-.doctype.html {
-  color: @syntax-text-color;
-}
+  .link.http.hyperlink {
+    //color: @yellow;
+    text-decoration: underline;
+  }
 
-.link.http.hyperlink {
-  //color: @yellow;
-  text-decoration: underline;
+  .meta.embedded.line.php {
+    background: fade(@_neutral, 20%);
+  }
+
 }
