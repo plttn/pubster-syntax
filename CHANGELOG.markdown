@@ -1,6 +1,10 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
+## 1.1.1 - UNRELEASED
+### Changed
+- Refactored git commit styling
+
 ## 1.1.0 - 2016-02-12
 ### Added
 - Embedded PHP now has a background highlight

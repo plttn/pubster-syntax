@@ -1,9 +1,11 @@
-.git-commit.line-too-long.deprecated {
-	color: orange;
-	text-decoration: none;
-}
-.git-commit-line-too-long.illegal {
-	color: #fff;
-	background: #DA2C43;
-	opacity: 0.9;
+.git-commit.line-too-long {
+	.deprecated {
+		color: @_orange;
+		text-decoration: none;
+	}
+	.illegal {
+		color: @syntax-text-color;
+		background: @_orangered;
+		opacity: 0.9;
+	}
 }
