@@ -1,7 +1,7 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
-## 1.2.0 - UNRELEASED
+## 1.2.0 - 2016-02-17
 ### Added
 - Doctype highlight for HTML/PHP
 - PHP tags highlighted
