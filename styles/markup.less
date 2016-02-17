@@ -1,0 +1,94 @@
+@import "colors";
+
+
+.markup {
+
+  &.bold,
+  &.heading,
+  &.strong.emphasis {
+    font-weight: bold;
+  }
+
+  &.italic,
+  &.emphasis:not(.strong) {
+    font-style: italic;
+  }
+
+  &.underline {
+    text-decoration: underline;
+  }
+
+  &.strike {
+    text-decoration: line-through;
+    color: @pubster-color-keyword;
+    //-webkit-text-decoration-style: dashed; IMPLEMENTED SOON, KEEPING IN TO REMIND ME
+  }
+
+  &.substitution,
+  &.changed {
+    color: @pubster-color-keyword;
+  }
+
+  &.heading {
+    .heading-1{
+      color: mix(@pubster-color-other-constant, @syntax-text-color, 100);
+    }
+    .heading-2{
+      color: mix(@pubster-color-other-constant, @syntax-text-color, 90);
+    }
+    .heading-3{
+      color: mix(@pubster-color-other-constant, @syntax-text-color, 80);
+    }
+    .heading-4{
+      color: mix(@pubster-color-other-constant, @syntax-text-color, 60);
+    }
+    .heading-5{
+      color: mix(@pubster-color-other-constant, @syntax-text-color, 40);
+    }
+    .heading-6{
+      color: mix(@pubster-color-other-constant, @syntax-text-color, 20);
+    }
+  }
+
+
+
+  &.inserted,
+  &.addition {
+    color: @pubster-color-string;
+  }
+
+  &.quote {
+  color: @syntax-text-color;
+  font-style: italic;
+  .punctuation {
+    color: @syntax-color-renamed;
+  }
+}
+
+
+  &.deletion {
+    color: @pubster-color-other-constant;
+  }
+
+  &.link {
+    //color: @pubster-color-variable;
+
+    .string {
+      //color: @pubster-color-header;
+    }
+  }
+
+  &.list {
+    & > .punctuation {
+      color: @pubster-color-constant;
+    }
+  }
+
+  &.raw,
+  &.code {
+    color: @_neutral;
+  }
+  .punctuation {
+   opacity: 0.5;
+ }
+}
