@@ -2,8 +2,12 @@
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
 ## 1.1.1 - UNRELEASED
+### Added
+- Doctype highlight for HTML/PHP
+- PHP tags highlighted
 ### Changed
 - Refactored git commit styling
+- Rearranged PHP/HTML includes
 
 ## 1.1.0 - 2016-02-12
 ### Added
