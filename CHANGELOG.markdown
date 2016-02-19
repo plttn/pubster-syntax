@@ -1,6 +1,13 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
+## 1.3.0 - 2016-02-18
+### Added
+- Yellow bracket matching
+- Fade on `atom-minimap` when not selected window
+### Changed
+- Refactored `base` into `base` and `editor`
+
 ## 1.2.0 - 2016-02-17
 ### Added
 - Doctype highlight for HTML/PHP
