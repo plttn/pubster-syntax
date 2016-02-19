@@ -1,0 +1,78 @@
+@import "colors";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
+    .line-number.cursor-line {
+      background-color: @syntax-gutter-background-color-selected;
+      color: @syntax-gutter-text-color-selected;
+    }
+  }
+  .cursor-line {
+    background-color: fade(@syntax-background-cursor-color, 70%);
+    z-index: -100;
+  }
+
+  &::shadow{
+    .wrap-guide {
+      background-color: @syntax-wrap-guide-color;
+      opacity: .75
+    }
+
+    .bracket-matcher .region {
+      border-bottom: 1px solid #de9536;
+      background-color: #ffd900;
+      opacity: 0.7;
+    }
+
+    atom-text-editor-minimap {
+      &::shadow {
+        .minimap-visible-area {
+          background-color: fade(@_neutral, 25%);
+        }
+      }
+    }
+  }
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+  .search-results {
+    .marker{
+      background-color: transparent;
+      border: @syntax-result-marker-color;
+      &.current-result {
+        border: @syntax-result-marker-color-selected;
+      }
+    }
+  }
+  .is-focused {
+    .cursor {
+      border-color: @syntax-cursor-color;
+    }
+    .selection {
+      .region {
+        background-color: @syntax-selection-color;
+      }
+    }
+  }
+  &.is-focused {
+    &::shadow{
+      atom-text-editor-minimap {
+        &::shadow {
+          .minimap-visible-area {
+            background-color: fade(@_neutral, 50%);
+          }
+          &:after {
+              background: green;
+            }
+        }
+      }
+    }
+  }
+}

@@ -1,54 +1,4 @@
 @import "colors";
-
-atom-text-editor, :host {
-  background-color: @syntax-background-color;
-  color: @syntax-text-color;
-  .gutter {
-    background-color: @syntax-gutter-background-color;
-    color: @syntax-gutter-text-color;
-    .line-number.cursor-line {
-      background-color: @syntax-gutter-background-color-selected;
-      color: @syntax-gutter-text-color-selected;
-    }
-  }
-  .cursor-line {
-    background-color: fade(@syntax-background-cursor-color, 70%);
-    z-index: -100;
-  }
-
-  &::shadow{
-    .wrap-guide {
-      background-color: @syntax-wrap-guide-color;
-      opacity: .75;
-    }
-  }
-  .indent-guide {
-    color: @syntax-indent-guide-color;
-  }
-  .invisible-character {
-    color: @syntax-invisible-character-color;
-  }
-  .search-results {
-    .marker{
-      background-color: transparent;
-      border: @syntax-result-marker-color;
-      &.current-result {
-        border: @syntax-result-marker-color-selected;
-      }
-    }
-  }
-  .is-focused {
-    .cursor {
-      border-color: @syntax-cursor-color;
-    }
-    .selection {
-      .region {
-        background-color: @syntax-selection-color;
-      }
-    }
-  }
-}
-
 //specific styling
 
 .comment:not(.gfm) { //Keeps CriticMarkup in GFM  from being italics
@@ -130,6 +80,8 @@ atom-text-editor, :host {
 //     &.css { -webkit-filter: hue-rotate(270deg); }
 // }
 
+
+@import "editor";
 @import "gfm";
 @import "html";
 @import "less";
