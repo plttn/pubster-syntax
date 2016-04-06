@@ -1,6 +1,10 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
+## 1.4.0 - [UNRELEASED]
+### Added
+- Bolded Python functions
+
 ## 1.3.0 - 2016-02-18
 ### Added
 - Yellow bracket matching
