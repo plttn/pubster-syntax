@@ -1,7 +1,7 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
-## 1.4.0 - [UNRELEASED]
+## 1.4.0 - 2016-04-06
 ### Added
 - Bolded Python functions
 
