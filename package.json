@@ -1,12 +1,12 @@
 {
   "name": "pubster-syntax",
   "theme": "syntax",
-  "version": "2.0.0",
+  "version": "1.4.1",
   "description": "A dark syntax theme inspired by Tubster",
   "repository": "https://github.com/plttn/pubster-syntax",
   "license": "MIT",
   "engines": {
-    "atom": "=>1.13"
+    "atom": ">= 1.13"
   },
   "keywords": [
     "tubster",
