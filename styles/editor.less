@@ -1,6 +1,6 @@
 @import "colors";
 
-atom-text-editor, :host {
+atom-text-editor, atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
   .gutter {
@@ -16,7 +16,7 @@ atom-text-editor, :host {
     z-index: -100;
   }
 
-  &::shadow{
+  &.editor{
     .wrap-guide {
       background-color: @syntax-wrap-guide-color;
       opacity: .75
@@ -29,7 +29,7 @@ atom-text-editor, :host {
     }
 
     atom-text-editor-minimap {
-      &::shadow {
+      &.editor {
         .minimap-visible-area {
           background-color: fade(@_neutral, 25%);
         }
@@ -43,7 +43,7 @@ atom-text-editor, :host {
     color: @syntax-invisible-character-color;
   }
   .search-results {
-    .marker{
+    .syntax--marker{
       background-color: transparent;
       border: @syntax-result-marker-color;
       &.current-result {
@@ -62,9 +62,9 @@ atom-text-editor, :host {
     }
   }
   &.is-focused {
-    &::shadow{
+    &.editor{
       atom-text-editor-minimap {
-        &::shadow {
+        &.editor {
           .minimap-visible-area {
             //background-color: fade(@_neutral, 50%);
           }

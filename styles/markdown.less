@@ -1,160 +1,160 @@
 @import "colors";
 
-// 3.
+// 3.syntax--
 // Define custom markdown styles
 // ----------------------------------------
 // Below is an incomplete list of markdown elements you might want to style
-// differently from the default markup elements defined above. All styles are
-// empty, primarily to give you an idea of what's possible.
+// differently from the default markup elements defined above.syntax-- All styles are
+// empty, primarily to give you an idea of what's possible.syntax--
 
-.text.md {
-  .md {
+.syntax--text.syntax--md {
+  .syntax--md {
 
-    &.heading {
-      > .punctuation {}
-      &.empty {
-        .punctuation {}
+    &.syntax--heading {
+      > .syntax--punctuation {}
+      &.syntax--empty {
+        .syntax--punctuation {}
       }
     }
 
-    &.hr {
+    &.syntax--hr {
       color: @pubster-color-string;
     }
-    &.quote {}
+    &.syntax--quote {}
 
-    &.link {
+    &.syntax--link {
       color: @pubster-color-variable;
-      .string {
+      .syntax--string {
         color: @pubster-color-header;
       }
-      &.text {}
-      &.destination {
-        .uri {}
+      &.syntax--text {}
+      &.syntax--destination {
+        .syntax--uri {}
         text-decoration: underline;
       }
-      &.label {}
-      &.title {
+      &.syntax--label {}
+      &.syntax--title {
         font-style: italic;
       }
-      &.auto {
-        &.email {}
+      &.syntax--auto {
+        &.syntax--email {}
       }
-      &.reference {
-        &.abbreviation {}
+      &.syntax--reference {
+        &.syntax--abbreviation {}
       }
-      &.footnote {
-        &.reference {}
-        &.definition {}
+      &.syntax--footnote {
+        &.syntax--reference {}
+        &.syntax--definition {}
       }
     }
 
-    &.gfm {
-      &.reference {
-        .mention {}
-        .issue {}
-        .user {}
-        .repository {}
-        .sha {}
+    &.syntax--gfm {
+      &.syntax--reference {
+        .syntax--mention {}
+        .syntax--issue {}
+        .syntax--user {}
+        .syntax--repository {}
+        .syntax--sha {}
 
-        &.class {}
-        &.method {
-          &.instance {}
-          &.class {}
+        &.syntax--class {}
+        &.syntax--method {
+          &.syntax--instance {}
+          &.syntax--class {}
         }
       }
 
-      &.emoji {}
+      &.syntax--emoji {}
     }
 
-    &.constant {
-      &.entity {}
-      &.escape {}
-      &.line-break {}
+    &.syntax--constant {
+      &.syntax--entity {}
+      &.syntax--escape {}
+      &.syntax--line-break {}
     }
 
-    &.reference {
-      &.class {}
-      &.link {}
+    &.syntax--reference {
+      &.syntax--class {}
+      &.syntax--link {}
     }
 
-    &.list {
-      > .punctuation {
-        &.checkbox {}
+    &.syntax--list {
+      > .syntax--punctuation {
+        &.syntax--checkbox {}
       }
 
-      &.unordered {}
-      &.ordered {}
-      &.empty {}
+      &.syntax--unordered {}
+      &.syntax--ordered {}
+      &.syntax--empty {}
 
-      &.task {
-        &.completed {}
+      &.syntax--task {
+        &.syntax--completed {}
       }
 
-      &.definition {}
+      &.syntax--definition {}
     }
 
-    &.code {
-      &:not(.fenced) {
+    &.syntax--code {
+      &:not(.syntax--fenced) {
         background: fade(@_neutral, 10%)
       }
 
-      &.fenced {
-        .punctuation.md {
+      &.syntax--fenced {
+        .syntax--punctuation.syntax--md {
           color: @pubster-color-header;
           font-style: italic;
         }
-        &.info {}
+        &.syntax--info {}
       }
 
-      &.raw {}
+      &.syntax--raw {}
     }
 
-    &.constant {
-      &.language {
+    &.syntax--constant {
+      &.syntax--language {
         color: @pubster-color-header;
         font-style: italic;
       }
     }
 
-    &.emphasis {
-      &:not(.strong) {}
+    &.syntax--emphasis {
+      &:not(.syntax--strong) {}
 
-      &:not(.strong) .strong {
+      &:not(.syntax--strong) .syntax--strong {
         font-style: italic;
       }
     }
 
-    &.strong {}
+    &.syntax--strong {}
 
-    &.table {
-      > .punctuation {
-        &.alignment {}
+    &.syntax--table {
+      > .syntax--punctuation {
+        &.syntax--alignment {}
       }
     }
 
-    &.strike {}
+    &.syntax--strike {}
 
-    &.critic {
-      &.addition {
+    &.syntax--critic {
+      &.syntax--addition {
 
     }
-      &.deletion {}
-      &.comment {}
-      &.highlight {}
-      &.substitution {}
+      &.syntax--deletion {}
+      &.syntax--comment {}
+      &.syntax--highlight {}
+      &.syntax--substitution {}
     }
 
-    &.special-attributes {}
+    &.syntax--special-attributes {}
 
-    &.attribute {
-      &.special {
-        &.other {}
-        &.id {}
-        &.class {}
+    &.syntax--attribute {
+      &.syntax--special {
+        &.syntax--other {}
+        &.syntax--id {}
+        &.syntax--class {}
       }
-      .value {
-        &.string {}
-        &.storage {}
+      .syntax--value {
+        &.syntax--string {}
+        &.syntax--storage {}
       }
     }
   }

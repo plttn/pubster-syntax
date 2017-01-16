@@ -1,86 +1,86 @@
 @import "colors";
 
-.source.gfm {
-  .markup {
+.syntax--source.syntax--gfm {
+  .syntax--markup {
     -webkit-font-smoothing: auto;
-    &.heading {
+    &.syntax--heading {
       //color: @pubster-color-other-constant;
       font-weight: bold;
-      &.heading-1 {
+      &.syntax--heading-1 {
         color: mix(@pubster-color-other-constant, @syntax-text-color, 100);
       }
-      &.heading-2 {
+      &.syntax--heading-2 {
         color: mix(@pubster-color-other-constant, @syntax-text-color, 90);
       }
-      &.heading-3 {
+      &.syntax--heading-3 {
         color: mix(@pubster-color-other-constant, @syntax-text-color, 75);
       }
-      &.heading-4 {
+      &.syntax--heading-4 {
         color: mix(@pubster-color-other-constant, @syntax-text-color, 60);
       }
-      &.heading-5 {
+      &.syntax--heading-5 {
         color: mix(@pubster-color-other-constant, @syntax-text-color, 40);
       }
-      &.heading-6 {
+      &.syntax--heading-6 {
         color: mix(@pubster-color-other-constant, @syntax-text-color, 30);
       }
     }
 
-    &.link {
+    &.syntax--link {
       color: @pubster-color-variable;
     }
 
-    &.bold {
+    &.syntax--bold {
       color: desaturate(@pubster-color-other-constant, 10%);
       font-weight: bold;
     }
 
-    &.changed {
+    &.syntax--changed {
       color: @pubster-color-header;
     }
 
-    &.deleted {
+    &.syntax--deleted {
       color: @pubster-color-support-function;
     }
 
-    &.italic {
+    &.syntax--italic {
       color: @pubster-color-variable;
       font-style: italic;
     }
 
-    &.inserted {
+    &.syntax--inserted {
       color: @pubster-color-string;
     }
 
-    &.list {
+    &.syntax--list {
       color: @pubster-color-constant;
     }
 
-    &.quote {
+    &.syntax--quote {
       color: @pubster-color-function;
     }
 
-    &.raw.inline {
+    &.syntax--raw.syntax--inline {
       color: @pubster-color-numeric;
     }
 
-    &.raw.gfm.support.gfm {
+    &.syntax--raw.syntax--gfm.syntax--support.syntax--gfm {
       color: @pubster-color-header;
     }
 
-    &.strike.gfm {
+    &.syntax--strike.syntax--gfm {
       color: @pubster-color-keyword;
       text-decoration: line-through;
       //-webkit-text-decoration-style: dashed; IMPLEMENTED SOON, KEEPING IN TO REMIND ME
     }
   }
 
-  .comment.hr.gfm {
+  .syntax--comment.syntax--hr.syntax--gfm {
     color: @pubster-color-string;
   }
 
-  .comment.quote.gfm {
-    .support.quote.gfm{
+  .syntax--comment.syntax--quote.syntax--gfm {
+    .syntax--support.syntax--quote.syntax--gfm{
       font-style: normal;
       color: @syntax-color-renamed;
       opacity: 1;
@@ -90,77 +90,77 @@
     opacity: 1;
   }
 
-  .raw.gfm {
-    .support.gfm{
+  .syntax--raw.syntax--gfm {
+    .syntax--support.syntax--gfm{
       color: @pubster-color-header;
       font-style: italic;
     }
     color: @pubster-color-constant;
   }
 
-  .support.gfm {
+  .syntax--support.syntax--gfm {
     color: @pubster-color-header;
     font-style: italic;
   }
 
-  .markup.code {
+  .syntax--markup.syntax--code {
     //color: @pubster-color-header;
     //font-style: italic;
   }
 
-  .raw.gfm.support.gfm {
+  .syntax--raw.syntax--gfm.syntax--support.syntax--gfm {
     color: @pubster-color-function;
   }
 
-  .link .entity {
+  .syntax--link .syntax--entity {
     color: @pubster-color-header;
   }
-  .critic.gfm {
-    .addition {
+  .syntax--critic.syntax--gfm {
+    .syntax--addition {
       color: @pubster-color-string;
     }
-    .deletion {
+    .syntax--deletion {
       color: @pubster-color-other-constant;
     }
-    .substitution {
+    .syntax--substitution {
       color: @pubster-color-function;
     }
-    .comment {
+    .syntax--comment {
       font-style: normal;
       color: @pubster-color-constant;
     }
-    .highlight {
+    .syntax--highlight {
       color: @pubster-color-keyword;
     }
   }
-  .comment.block.gfm {
+  .syntax--comment.syntax--block.syntax--gfm {
     font-style: italic;
     color: @pubster-color-comment;
   }
 }
 
-.source.gfm.critic.gfm.comment {
+.syntax--source.syntax--gfm.syntax--critic.syntax--gfm.syntax--comment {
   font-style: normal;
   color: @pubster-color-constant;
 }
 
-.list.gfm {
+.syntax--list.syntax--gfm {
   color: @pubster-color-constant;
 }
 
 //criticmarkup fixes
-.critic.gfm.addition {
+.syntax--critic.syntax--gfm.syntax--addition {
   color: @pubster-color-string;
 }
-.critic.gfm.deletion {
+.syntax--critic.syntax--gfm.syntax--deletion {
   color: @pubster-color-other-constant;
 }
-.critic.gfm.substitution {
+.syntax--critic.syntax--gfm.syntax--substitution {
   color: @pubster-color-function;
 }
-.critic.gfm.comment {
+.syntax--critic.syntax--gfm.syntax--comment {
   color: @pubster-color-constant;
 }
-.critic.gfm.highlight {
+.syntax--critic.syntax--gfm.syntax--highlight {
   color: @pubster-color-keyword;
 }
