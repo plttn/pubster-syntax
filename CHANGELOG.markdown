@@ -1,6 +1,10 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
+## 2.0.0 - 2017-01-15
+### Changed
+- Changed format to new syntax prefixing
+
 ## 1.4.1 - 2016-05-27
 ### Changed
 - Fixed minimap highlighting
