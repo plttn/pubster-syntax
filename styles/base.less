@@ -1,16 +1,16 @@
 @import "colors";
 //specific styling
 
-.comment:not(.gfm) { //Keeps CriticMarkup in GFM  from being italics
+.syntax--comment:not(.gfm) { //Keeps CriticMarkup in GFM  from being italics
   font-style: italic;
   color: @pubster-color-comment;
 }
 
-.keyword, .storage {
+.syntax--keyword, .syntax--storage {
   color: @pubster-color-keyword;
 }
 
-.entity.name.function, .keyword.other.name-of-parameter.objc {
+.syntax--entity.syntax--name.syntax--function, .syntax--keyword.syntax--other.syntax--name-of-parameter.syntax--objc {
   color: @pubster-color-function;
 }
 
