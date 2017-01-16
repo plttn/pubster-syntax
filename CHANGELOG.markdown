@@ -1,7 +1,7 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
-## 2.0.0 - 2017-01-15
+## 3.0.1 - 2017-01-15 "We lost a two somewhere around here"
 ### Changed
 - Changed format to new syntax prefixing
 
