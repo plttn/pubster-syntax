@@ -1,6 +1,6 @@
 @import "colors";
 
-atom-text-editor, atom-text-editor {
+atom-text-editor{
   background-color: @syntax-background-color;
   color: @syntax-text-color;
   .gutter {
@@ -51,7 +51,6 @@ atom-text-editor, atom-text-editor {
       }
     }
   }
-  .is-focused {
     .cursor {
       border-color: @syntax-cursor-color;
     }
@@ -60,7 +59,6 @@ atom-text-editor, atom-text-editor {
         background-color: @syntax-selection-color;
       }
     }
-  }
   &.is-focused {
     &.editor{
       atom-text-editor-minimap {
