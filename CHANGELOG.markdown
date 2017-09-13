@@ -1,6 +1,10 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
+## 3.0.2 - 2017-09-13 "What have I done with my code"
+### Fixed
+- Fixed selection highlight
+
 ## 3.0.1 - 2017-01-15 "We lost a two somewhere around here"
 ### Changed
 - Changed format to new syntax prefixing
