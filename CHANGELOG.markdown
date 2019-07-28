@@ -1,6 +1,10 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
+## 3.1.0 - 2019-07-27 "Welcome back"
+### Added
+- Font ligatures now disable on the cursor line to make parsing when editing easier.
+
 ## 3.0.2 - 2017-09-13 "What have I done with my code"
 ### Fixed
 - Fixed selection highlight
