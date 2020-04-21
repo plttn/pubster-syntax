@@ -1,7 +1,7 @@
 {
   "name": "pubster-syntax",
   "theme": "syntax",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "A dark syntax theme inspired by Tubster",
   "repository": "https://github.com/plttn/pubster-syntax",
   "license": "MIT",
