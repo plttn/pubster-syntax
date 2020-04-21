@@ -1,6 +1,9 @@
 # Changelog
 This theme attempts to follow [Semantic Versioning](http://semver.org).
 
+## 3.1.1 - 2020-04-21 "Signing time"
+- New tag to attempt to sign this release.
+
 ## 3.1.0 - 2019-07-27 "Welcome back"
 ### Added
 - Font ligatures now disable on the cursor line to make parsing when editing easier.
