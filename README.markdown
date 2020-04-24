@@ -9,6 +9,8 @@ The performance issues and general just meh-ness of Atom recently have led me to
 give VS Code a try, and it's real nice and I'm enjoying it. I might come back to
 this theme in the future, but at least for now there won't be any further updates.
 
+---
+
 A classy dark syntax theme inspired by Tubster and all its variants.
 
 Both `language-gfm` and `language-markdown` have been tuned for the best possible
